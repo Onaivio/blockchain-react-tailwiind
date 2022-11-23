@@ -22,14 +22,10 @@ const Navbar = () => {
             <button className='ml-4'>Use Defi</button>
           </ul>
         </div>
-
         {/* Hamburger menu */}
         <div onClick={handleNav} className='block md:hidden'>
             {nav ? <AiOutlineClose size={30} className='text-white' /> : <AiOutlineMenu size={30} className='text-white' />}
-          
-          
         </div>
-
         {/* Mobile Menu */}
         <div className={nav ? 'w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center' : 
     'absolute left-[-100%]'}>
